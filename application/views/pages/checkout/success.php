@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Checkout Berhasil</div>
+                <div class="card-header bg-success text-light">Checkout Berhasil</div>
                 <div class="card-body">
                     <h5>Nomer Order: <?= $content->invoice ?></h5>
                     <p>Terima kasih, sudah berbelanja.</p>

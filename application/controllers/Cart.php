@@ -15,7 +15,7 @@ class Cart extends MY_Controller {
         $this->id = $this->session->userdata('id');
 
         if (! $is_login) {
-            redirect(base_url());
+            redirect('login');
             return;
         }
     }

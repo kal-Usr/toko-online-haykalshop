@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-10 mx-auto">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header bg-primary text-light">
                     <span>Order</span>
 
                     <div class="float-right">

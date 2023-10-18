@@ -2,7 +2,7 @@
       <div class="row">
           <div class="col-md-10 mx-auto">
               <div class="card mb-3">
-                  <div class="card-header">
+                  <div class="card-header bg-primary text-light">
                       <span>Formulir Kategori</span>
                   </div>
 

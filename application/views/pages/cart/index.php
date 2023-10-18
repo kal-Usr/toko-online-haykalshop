@@ -1,9 +1,9 @@
- <main role="main" class="container">
+ <main role="main" class="container" >
      <?php $this->load->view('layouts/_alert') ?>
      <div class="row">
          <div class="col-md-12">
              <div class="card mb-3">
-                 <div class="card-header">
+                 <div class="card-header bg-primary  text-light">
                      Keranjang Belanja
                  </div>
                  <div class="card-body">
@@ -56,7 +56,7 @@
                      </div>
                  </div>
                  <div class="card-footer">
-                     <a href="<?= base_url('/checkout') ?>" class="btn btn-success float-right">Pembayaran<i class="fas fa-angle-right"></i></a>
+                     <a href="<?= base_url('/checkout') ?>" class="btn btn-success float-right">Checkout<i class="fas fa-angle-right"></i></a>
                      <a href="<?= base_url('/') ?>" class="btn btn-warning text-white"><i class="fas fa-angle-left"></i>Kembali Belanja</a>
                  </div>
              </div>

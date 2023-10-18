@@ -53,16 +53,16 @@
 
                          <div class="card-footer">
                              <form action="<?= base_url("order/update/$order->id") ?>" method="POST">
-                             <input type="hidden" name="id" value="<?= $order->id ?>">
+                                 <input type="hidden" name="id" value="<?= $order->id ?>">
                                  <div class="input-group">
                                      <select name="status" id="" class="form-control">
-                                         <option value="waiting" <?= $order->status == 'waiting' ? 'selected' : '' ?> >Menunggu Pembayaran</option>
-                                         <option value="paid" <?= $order->status == 'paid' ? 'selected' : '' ?> >Dibayar</option>
-                                         <option value="delivered" <?= $order->status == 'delivered' ? 'selected' : '' ?> >Dikirim</option>
-                                         <option value="cancel" <?= $order->status == 'cancel' ? 'selected' : '' ?> >Batal</option>
+                                         <option value="waiting" <?= $order->status == 'waiting' ? 'selected' : '' ?>>Menunggu Pembayaran</option>
+                                         <option value="paid" <?= $order->status == 'paid' ? 'selected' : '' ?>>Dibayar</option>
+                                         <option value="delivered" <?= $order->status == 'delivered' ? 'selected' : '' ?>>Dikirim</option>
+                                         <option value="cancel" <?= $order->status == 'cancel' ? 'selected' : '' ?>>Batal</option>
                                      </select>
                                      <div class="input-group-append">
-                                         <button class="btn btn-primary" type="submit">Simpan</button>
+                                         <button class="btn btn-primary" type="submit">Konfimasi</button>
                                      </div>
                                  </div>
                              </form>

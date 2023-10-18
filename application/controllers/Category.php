@@ -29,7 +29,7 @@ class Category extends MY_Controller
 		$data['page']		= 'pages/category/index';
 
 		$this->view($data);
-	}
+	} 
 
 
 	public function search($page = null)

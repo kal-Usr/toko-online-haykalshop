@@ -6,7 +6,7 @@
          </div>
          <div class="col-md-9">
              <div class="card">
-                 <div class="card-header">Daftar Orders</div>
+                 <div class="card-header bg-success text-light">Daftar Orders</div>
                  <div class="card-body">
 
                      <div class="table-responsive">

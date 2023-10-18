@@ -11,9 +11,10 @@ class Login extends MY_Controller
         $is_login = $this->session->userdata('is_login');
 
         if ($is_login) {
-            redirect(base_url());
+            // redirect(base_url());
+            redirect('login');
             return;
-        }
+        } 
             
     }
     

@@ -4,9 +4,9 @@
 
     <div class="col-md-10 mx-auto">
         <div class="card">
-            <div class="card-header">
+            <div class="card-header bg-primary text-light">
                 <span>Kategori</span>
-                <a href="<?= base_url('category/create') ?>" class="btn btn-sm btn-primary">Tambah</a>
+                <a href="<?= base_url('category/create') ?>" class="btn btn-sm btn-success">Tambah</a>
 
                 <div class="float-right">
                     <?= form_open(base_url('category/search'), ['method' => 'POST']) ?>
